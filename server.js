@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 app.use(express.json()); // For parsing JSON data
 
-const DATABASE_URL2 = process.env.DATABASE_URL2 || "postgresql://postgres:92813@127.0.0.1:5432/solar_quotes";
+const DATABASE_URL2 = process.env.DATABASE_URL2 || "postgresql://solar_quotes_db_user:L9NZCrA7dwI72LgUMv8TG3dlt2Dqhfi4@dpg-cvd5o8t2ng1s73dqj8d0-a/solar_quotes_db";
 
 console.log("Connecting to:", DATABASE_URL2); // Debugging
 
